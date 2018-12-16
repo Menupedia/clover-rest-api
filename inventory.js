@@ -3,6 +3,7 @@ const got = require('got')
 class Inventory {
   constructor (url) {
     this.url = url
+    this.bearer = 'Bearer '
   }
   // item
   async getAllInventoryItems (token, merchantId, parameters) {
@@ -12,7 +13,7 @@ class Inventory {
       {
         json: true,
         headers: {
-          Authorization: 'Bearer ' + token
+          Authorization: this.bearer + token
         },
         query: {
           filter: parameters.filter,
@@ -31,7 +32,7 @@ class Inventory {
       {
         json: true,
         headers: {
-          Authorization: 'Bearer ' + token
+          Authorization: this.bearer + token
         },
         query: {
           filter: parameters.filter,

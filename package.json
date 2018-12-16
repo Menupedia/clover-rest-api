@@ -1,6 +1,6 @@
 {
   "name": "clover-rest-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Clover Rest API for Node.js",
   "keywords": [
     "Clover",

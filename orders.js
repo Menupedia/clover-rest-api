@@ -41,3 +41,5 @@ class Orders {
     return response.body
   }
 }
+
+module.exports = Orders

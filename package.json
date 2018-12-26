@@ -1,6 +1,6 @@
 {
   "name": "clover-rest-api",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Clover Rest API for Node.js",
   "keywords": [
     "Clover",
@@ -15,6 +15,6 @@
   "author": "Yoga Lin <blueandhack@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "got": "^9.4.0"
+    "got": "^9.5.0"
   }
 }
